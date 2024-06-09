@@ -1,0 +1,77 @@
+URxvt.font: xft:Roboto Mono:size=14:style=Regular, xft:CaskaydiaCove\ NF:size=14:style=Medium
+URxvt.intensitystyles: false
+URxvt.cursorBlink:                true
+URxvt.cursorUnderline:            true
+URxvt.scrollBar:                  false
+URxvt.scrollBar_right:            true
+URxvt.scrollBar_floating:         false
+URxvt.scrollstyle:                plain
+URxvt.scrollWithBuffer:           false
+URxvt.urgentOnBell:               false
+URxvt.depth:                      32
+URxvt.iso14755:                   false
+URxvt.pointerBlank:               true
+*.internalBorder: 40
+URxvt.letterSpace: -1
+
+Xft.hinting: true
+Xft.hintstyle: hintfull
+Xft.autohint: true
+
+
+!
+!
+! URxvt Extensions
+URxvt.perl-ext-common:            default,tabbedex,url-select,font-size
+
+URxvt.keysym.Control-Right:     font-size:increase
+URxvt.keysym.Control-Left:   font-size:decrease
+URxvt.keysym.Control-Shift-Right:   font-size:incglobal
+URxvt.keysym.Control-Shift-Left: font-size:decglobal
+URxvt.keysym.Control-equal:  font-size:reset
+URxvt.keysym.Control-slash:  font-size:show
+
+URxvt.keysym.Control-Shift-C:     eval:selection_to_clipboard
+URxvt.keysym.Control-Shift-V:     eval:paste_clipboard
+URxvt.keysym.Control-Up:          eval:scroll_up 1
+URxvt.keysym.Control-Down:        eval:scroll_down 1
+URxvt.keysym.Control-Home:        eval:scroll_to_top
+URxvt.keysym.Control-End:         eval:scroll_to_bottom
+
+! special
+*.foreground:   #18181a
+*.background:   #f2f2e9
+*.cursorColor:  #18181a
+
+! black
+*.color0:       #e1e4e6
+*.color8:       #e1e4e6
+
+! red
+*.color1:       #e68a8a
+*.color9:       #e68a8a
+
+! green
+*.color2:       #c6e687
+*.color10:      #c6e687
+
+! yellow
+*.color3:       #e6b88a
+*.color11:      #e6b88a
+
+! blue
+*.color4:       #8aa8e6
+*.color12:      #8aa8e6
+
+! magenta
+*.color5:       #c78ae6
+*.color13:      #c78ae6
+
+! cyan
+*.color6:       #8ac7e6
+*.color14:      #8ac7e6
+
+! white
+*.color7:       #323333
+*.color15:      #323333
+
